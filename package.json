@@ -1,13 +1,23 @@
 {
-    "type": "module",
-    "scripts": {
-        "dev": "tsx watch src/index.ts",
-        "start": "tsx src/index.ts"
-    },
+	"type": "module",
+	"scripts": {
+		"dev": "tsx watch src/index.ts",
+		"start": "tsx src/index.ts"
+	},
 	"dependencies": {
+		"@koa/router": "^15.7.1",
+		"dotenv": "^18.0.10",
+		"google-auth-library": "^11.3.4",
+		"koa": "^3.3.0",
+		"koa-mount": "^4.2.0",
+		"koa-session": "^7.0.2",
 		"oidc-provider": "^9.15.1"
 	},
 	"devDependencies": {
+		"@types/koa": "^3.0.3",
+		"@types/koa-mount": "^4.0.5",
+		"@types/koa-session": "^6.4.5",
+		"@types/koa__router": "^15.0.0",
 		"@types/node": "^26.6.11",
 		"@types/oidc-provider": "^9.15.0",
 		"tsx": "^4.23.15",
